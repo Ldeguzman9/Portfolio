@@ -1,0 +1,55 @@
+* {
+  background: burlywood;
+}
+
+header {
+  background: black;
+  opacity: 50%;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+  position: sticky;
+  display: block;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-section h3 {
+  text-align: right;
+  border-right: 5px solid black;
+  padding-right: 20px;
+}
+
+.about-item {
+  margin-left: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  display: flex;
+  align-items: flex-start;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 10px;
+  max-height: 200px;
+  max-width: 250px;
+}
+
+.flex-container:first-child {
+  width: 600px;
+  height: 600px;
+}
+.surf-report {
+  background-image: url("https://wavegarden.com/wp-content/uploads/2019/11/wavegarden-cove-Melburne-01.jpg");
+}
