@@ -73,23 +73,26 @@ header nav ul li a:hover {
 }
 
 /* Main Style Begin */
+main {
+  display: flex;
+  flex-direction: column;
+}
 
 .main-section {
-  display: flex;
-  flex-direction: row;
   margin-left: 30px;
   text-align: left;
 }
 
 .main-section h3 {
   background-color: #f0f0f0;
-  text-align: right;
   font-size: 40px;
   border-right: 5px solid black;
   padding: 20px;
   text-align: center;
   line-height: 50px;
-  margin: 60px;
+  margin: 30px;
+  float: left;
+  width: 250px;
 }
 
 .main-section h4 {
@@ -100,6 +103,11 @@ header nav ul li a:hover {
   text-align: center;
   line-height: 50px;
   margin: 10px 10px 10px 0px;
+}
+
+.main-section p {
+  display: flex;
+  flex-wrap: wrap;
 }
 /* work section style begin */
 .work {
@@ -135,8 +143,9 @@ header nav ul li a:hover {
   padding: 10px;
   margin: 10px;
   height: 200px;
-  width: 475px;
+  width: 425px;
   opacity: 80%;
+  float: right;
 }
 
 .flex-item:hover {
