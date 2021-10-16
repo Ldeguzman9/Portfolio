@@ -73,6 +73,7 @@ header nav ul li a:hover {
 }
 
 /* Main Style Begin */
+
 .main-section {
   display: flex;
   flex-direction: row;
@@ -100,7 +101,12 @@ header nav ul li a:hover {
   line-height: 50px;
   margin: 10px 10px 10px 0px;
 }
-
+/* work section style begin */
+.work {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .work-title-container {
   background-color: #f0f0f0;
 }
@@ -113,7 +119,6 @@ header nav ul li a:hover {
   margin-left: 30px;
 }
 
-/* work section style begin */
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -131,14 +136,17 @@ header nav ul li a:hover {
   margin: 10px;
   height: 200px;
   width: 475px;
+  opacity: 80%;
+}
+
+.flex-item:hover {
+  opacity: 100%;
 }
 
 .flex-item:first-child {
   width: 1000px;
   height: 600px;
 }
-
-/* work style begin */
 .surf-report {
   background-image: url("../images/robot-surf.jpeg");
 }
@@ -158,19 +166,21 @@ header nav ul li a:hover {
 .run-buddy {
   background-image: url("../images/run-buddy.jpeg");
 }
+/* work section style begin */
+
 /* Academic Background section style begin */
 .university {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
+/* Academic Background section style end */
 
 .university ul {
   display: flex;
 }
 
 /* Contact section style begin */
-
 .main-section ul {
   list-style: none;
   display: flex;
@@ -182,3 +192,4 @@ header nav ul li a:hover {
 .main-section ul li {
   padding: 30px;
 }
+/* Contact section style end */
