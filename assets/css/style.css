@@ -95,10 +95,10 @@ header nav ul li a:hover {
   background-color: #f0f0f0;
   text-align: right;
   font-size: 40px;
-  padding: 20px 20px 20px 0px;
+  padding: 10px 10px 10px 0px;
   text-align: center;
   line-height: 50px;
-  margin: 60px 60px 60px 0px;
+  margin: 10px 10px 10px 0px;
 }
 
 .work-title-container {
@@ -140,23 +140,33 @@ header nav ul li a:hover {
 
 /* work style begin */
 .surf-report {
-  background-image: url("https://wavegarden.com/wp-content/uploads/2019/11/wavegarden-cove-Melburne-01.jpg");
+  background-image: url("../images/robot-surf.jpeg");
 }
 
 .led-wall {
-  background-image: url("https://wavegarden.com/wp-content/uploads/2019/11/wavegarden-cove-Melburne-01.jpg");
+  background-image: url("../images/brick-wall.jpeg");
 }
 
 .calculator {
-  background-image: url("https://wavegarden.com/wp-content/uploads/2019/11/wavegarden-cove-Melburne-01.jpg");
+  background-image: url("../images/code.jpeg");
 }
 
 .pastel-puzzles {
-  background-image: url("https://wavegarden.com/wp-content/uploads/2019/11/wavegarden-cove-Melburne-01.jpg");
+  background-image: url("../images/pastel-puzzle.jpg");
 }
 
 .run-buddy {
-  background-image: url("https://wavegarden.com/wp-content/uploads/2019/11/wavegarden-cove-Melburne-01.jpg");
+  background-image: url("../images/run-buddy.jpeg");
+}
+/* Academic Background section style begin */
+.university {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.university ul {
+  display: flex;
 }
 
 /* Contact section style begin */
