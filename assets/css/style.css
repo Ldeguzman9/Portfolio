@@ -218,6 +218,10 @@ main {
   background-image: url("../images/robot-surf.jpeg");
 }
 
+.stockable {
+  background-image: url("../images/Stockable\ Logo.png");
+}
+
 .led-wall {
   background-image: url("../images/brick-wall.jpeg");
 }
