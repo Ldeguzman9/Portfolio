@@ -222,6 +222,10 @@ main {
   background-image: url("../images/stockable-logo.png");
 }
 
+.quick-quack-quiz {
+  background-image: url("../images/qqq.png");
+}
+
 .led-wall {
   background-image: url("../images/brick-wall.jpeg");
 }
