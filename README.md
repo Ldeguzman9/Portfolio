@@ -15,6 +15,10 @@ Hi there! My name is Lauren de Guzman. This a portfolio of my work as a Full-Sta
 - HTML
 - CSS
 - Javascript
+- Web Api's
+- Databases
+- CRUD routes
+- MVS File Structure
 
 # Deployed Portfolio
 https://ldeguzman9.github.io/Portfolio/
