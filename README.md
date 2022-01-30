@@ -1,5 +1,5 @@
 # About me
-Hi there! My name is Lauren de Guzman. This a portfolio of my work as a Full-Stack Software Engineer. 
+Hi there! My name is Lauren de Guzman. This is a portfolio of my work as a Full-Stack Developer. 
 
 # You will find:
 - **About me:** Who am I? What do I do? Why I am unique?
